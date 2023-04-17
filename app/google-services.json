@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "154166359095",
+    "project_id": "fir-experiment1-f0f17",
+    "storage_bucket": "fir-experiment1-f0f17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154166359095:android:13066d48b28812ef8dfbb2",
+        "android_client_info": {
+          "package_name": "com.jones.honorsmobileapps.firebaseexperiment10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154166359095-7oe68pl7649mab9bi7s5cck9psvuthv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArIIDC70kbqzdHLuRzdD01RHr9l3yaFcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154166359095-7oe68pl7649mab9bi7s5cck9psvuthv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
