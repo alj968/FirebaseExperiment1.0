@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainFragment">
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter teacher name"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/subjectEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter teacher's subject"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameEditText" />
+
+    <EditText
+        android:id="@+id/yearsInEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter how many years they've taught"
+        android:inputType="number"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/subjectEditText"
+        app:layout_constraintTop_toBottomOf="@+id/subjectEditText" />
+
+    <Button
+        android:id="@+id/addTeacherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Add Teacher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yearsInEditText" />
+
+    <Button
+        android:id="@+id/deleteTeacherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete all teachers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/addTeacherButton"
+        app:layout_constraintTop_toTopOf="@+id/addTeacherButton" />
+
+
+    <Button
+        android:id="@+id/viewAllTeachersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View all added teachers"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addTeacherButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
